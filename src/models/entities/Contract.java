@@ -16,11 +16,10 @@ public class Contract {
 
 	}
 
-	public Contract(Integer number, Date date, Double totalValue, List<Installment> list) {
+	public Contract(Integer number, Date date, Double totalValue) {
 		this.number = number;
 		this.date = date;
 		this.totalValue = totalValue;
-		this.installments = list;
 	}
 
 	public Integer getNumber() {
